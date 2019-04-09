@@ -1,7 +1,5 @@
-import os
 import tensorflow as tf
 import numpy as np
-import time
 import pickle
 from data_process import read_batch, tag_label, vocab, id_to_vocab, label_tag
 from tensorflow.contrib.crf import crf_log_likelihood
