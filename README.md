@@ -37,3 +37,9 @@
                   PER: precision:  80.81%; recall:  76.37%; FB1:  78.53  1860
 从测试集来看，是有一定效果的，但只是对人名的识别效果较好<br>
 ### 使用预训练的词向量<br>
+    processed 171959 tokens with 6174 phrases; found: 6051 phrases; correct: 5297.
+    accuracy:  98.33%; precision:  87.54%; recall:  85.80%; FB1:  86.66
+                  LOC: precision:  90.58%; recall:  88.00%; FB1:  89.27  2793
+                  ORG: precision:  82.71%; recall:  82.64%; FB1:  82.68  1330
+                  PER: precision:  86.46%; recall:  84.71%; FB1:  85.57  1928
+使用预训练词向量后，对三种命名实体的识别都有一定的提升，后续如果希望继续提升效果，可以考虑预训练词向量。                  
